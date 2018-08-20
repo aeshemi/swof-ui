@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL || ''}>
     <App>
       <Switch>
         <Route exact path="/" component={Calendar} />

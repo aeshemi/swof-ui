@@ -1,5 +1,6 @@
 {
   "name": "swof",
+  "homepage": "http://aeshemi.github.io/swof-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +25,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.0",
+    "gh-pages": "^1.2.0",
     "husky": "^0.14.3",
     "jest-fetch-mock": "^1.6.5",
     "lint-staged": "^7.2.2",
@@ -43,6 +45,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "jest": {
