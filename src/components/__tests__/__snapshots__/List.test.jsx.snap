@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly with no schedules 1`] = `
+<div
+  className="schedule-list"
+>
+  <Grid
+    bsClass="container"
+    componentClass="div"
+    fluid={false}
+  >
+    <Row
+      bsClass="row"
+      componentClass="div"
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        md={3}
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-left"
+          />
+        </Button>
+      </Col>
+      <Col
+        bsClass="col"
+        className="list-month"
+        componentClass="div"
+        md={6}
+      >
+        August 2018
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        md={3}
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="pull-right"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-right"
+          />
+        </Button>
+      </Col>
+    </Row>
+  </Grid>
+  <div
+    className="no-rotations"
+  >
+    No rotations to display.
+  </div>
+</div>
+`;
+
+exports[`List renders correctly with schedules 1`] = `
+<div
+  className="schedule-list"
+>
+  <Grid
+    bsClass="container"
+    componentClass="div"
+    fluid={false}
+  >
+    <Row
+      bsClass="row"
+      componentClass="div"
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        md={3}
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-left"
+          />
+        </Button>
+      </Col>
+      <Col
+        bsClass="col"
+        className="list-month"
+        componentClass="div"
+        md={6}
+      >
+        August 2018
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        md={3}
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="pull-right"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-right"
+          />
+        </Button>
+      </Col>
+    </Row>
+  </Grid>
+  <ListRow
+    day={20}
+    dayOfWeek="Mon"
+    engineer={
+      Object {
+        "Afternoon": "Natalee Wigin",
+        "Morning": "Hetti Whatley",
+      }
+    }
+    key="20"
+  />
+  <ListRow
+    day={21}
+    dayOfWeek="Tue"
+    engineer={
+      Object {
+        "Afternoon": "Monti Vercruysse",
+        "Morning": "Charlot Eede",
+      }
+    }
+    key="21"
+  />
+  <ListRow
+    day={22}
+    dayOfWeek="Wed"
+    engineer={
+      Object {
+        "Afternoon": "Nap Nimmo",
+        "Morning": "Nicolea Appleyard",
+      }
+    }
+    key="22"
+  />
+  <ListRow
+    day={23}
+    dayOfWeek="Thu"
+    engineer={
+      Object {
+        "Afternoon": "Sharity Dronsfield",
+        "Morning": "Lethia Bonefant",
+      }
+    }
+    key="23"
+  />
+  <ListRow
+    day={24}
+    dayOfWeek="Fri"
+    engineer={
+      Object {
+        "Afternoon": "Burk Maciaszek",
+        "Morning": "Auria De Witt",
+      }
+    }
+    key="24"
+  />
+</div>
+`;

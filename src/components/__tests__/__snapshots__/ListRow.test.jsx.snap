@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListRow renders correctly 1`] = `
+<Media
+  bsClass="media"
+  componentClass="div"
+>
+  <MediaLeft
+    align="top"
+    bsClass="media-left"
+  >
+    <Uncontrolled(Panel)
+      bsStyle="primary"
+      className="date"
+    >
+      <PanelHeading
+        bsClass="panel"
+        className="day-of-week"
+        componentClass="div"
+      >
+        Wed
+      </PanelHeading>
+      <PanelBody
+        bsClass="panel"
+        className="day"
+        collapsible={false}
+      >
+        19
+      </PanelBody>
+    </Uncontrolled(Panel)>
+  </MediaLeft>
+  <MediaBody
+    bsClass="media-body"
+    componentClass="div"
+  >
+    <Grid
+      bsClass="container"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Shift
+          key="Morning"
+          name="Nap Nimmo"
+          shift="Morning"
+        />
+        <Shift
+          key="Afternoon"
+          name="Monti Vercruysse"
+          shift="Afternoon"
+        />
+      </Row>
+    </Grid>
+  </MediaBody>
+</Media>
+`;

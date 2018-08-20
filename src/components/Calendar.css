@@ -1,0 +1,12 @@
+.rotation {
+    border-radius: 0;
+    border: none;
+}
+
+.morning {
+    background-color: #6593f5;
+}
+
+.afternoon {
+    background-color: #dc6751;
+}

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound renders correctly 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  inverse={true}
+>
+  <NavbarHeader>
+    <NavbarBrand>
+      Support Wheel of Fate
+    </NavbarBrand>
+    <NavbarToggle />
+  </NavbarHeader>
+  <NavbarCollapse>
+    <Nav
+      bsClass="nav"
+      justified={false}
+      pullLeft={false}
+      pullRight={true}
+      stacked={false}
+    >
+      <LinkContainer
+        activeClassName="active"
+        exact={true}
+        replace={false}
+        strict={false}
+        to="/"
+      >
+        <NavItem
+          active={false}
+          disabled={false}
+        >
+          Calendar
+        </NavItem>
+      </LinkContainer>
+      <LinkContainer
+        activeClassName="active"
+        exact={false}
+        replace={false}
+        strict={false}
+        to="/list"
+      >
+        <NavItem
+          active={false}
+          disabled={false}
+        >
+          List
+        </NavItem>
+      </LinkContainer>
+      <LinkContainer
+        activeClassName="active"
+        exact={false}
+        replace={false}
+        strict={false}
+        to="/generator"
+      >
+        <NavItem
+          active={false}
+          disabled={false}
+        >
+          Generator
+        </NavItem>
+      </LinkContainer>
+    </Nav>
+  </NavbarCollapse>
+</Uncontrolled(Navbar)>
+`;

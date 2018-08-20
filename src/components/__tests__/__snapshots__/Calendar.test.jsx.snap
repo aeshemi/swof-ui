@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar renders correctly with no schedules 1`] = `
+<Uncontrolled(Calendar)
+  defaultView="month"
+  endAccessor="endDateTime"
+  eventPropGetter={[Function]}
+  events={Array []}
+  onNavigate={[Function]}
+  startAccessor="startDateTime"
+  style={
+    Object {
+      "height": "100vh",
+    }
+  }
+  titleAccessor="name"
+  views={
+    Array [
+      "month",
+      "week",
+    ]
+  }
+/>
+`;
+
+exports[`Calendar renders correctly with schedules 1`] = `
+<Uncontrolled(Calendar)
+  defaultView="month"
+  endAccessor="endDateTime"
+  eventPropGetter={[Function]}
+  events={
+    Array [
+      Object {
+        "endDateTime": "2018-08-20T13:00:00",
+        "name": "Hetti Whatley",
+        "shift": "Morning",
+        "startDateTime": "2018-08-20T09:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-20T17:00:00",
+        "name": "Natalee Wigin",
+        "shift": "Afternoon",
+        "startDateTime": "2018-08-20T13:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-21T13:00:00",
+        "name": "Charlot Eede",
+        "shift": "Morning",
+        "startDateTime": "2018-08-21T09:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-21T17:00:00",
+        "name": "Monti Vercruysse",
+        "shift": "Afternoon",
+        "startDateTime": "2018-08-21T13:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-22T13:00:00",
+        "name": "Nicolea Appleyard",
+        "shift": "Morning",
+        "startDateTime": "2018-08-22T09:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-22T17:00:00",
+        "name": "Nap Nimmo",
+        "shift": "Afternoon",
+        "startDateTime": "2018-08-22T13:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-23T13:00:00",
+        "name": "Lethia Bonefant",
+        "shift": "Morning",
+        "startDateTime": "2018-08-23T09:00:00",
+      },
+      Object {
+        "endDateTime": "2018-08-23T17:00:00",
+        "name": "Sharity Dronsfield",
+        "shift": "Afternoon",
+        "startDateTime": "2018-08-23T13:00:00",
+      },
+    ]
+  }
+  onNavigate={[Function]}
+  startAccessor="startDateTime"
+  style={
+    Object {
+      "height": "100vh",
+    }
+  }
+  titleAccessor="name"
+  views={
+    Array [
+      "month",
+      "week",
+    ]
+  }
+/>
+`;

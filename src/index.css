@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  font-size: 14px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.schedule-list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.schedule-list .container {
+  width: auto;
+}
+
+.panel.date {
+  margin: 0;
+  min-width: 60px;
+  text-align: center;
+}
+
+.panel.date .day-of-week {
+  padding: 2px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.panel.date .day {
+  padding: 3px 0;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.list-month {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.no-rotations {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
